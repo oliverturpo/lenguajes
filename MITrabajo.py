@@ -28,12 +28,12 @@ print(GRAMA)
 print("\n")
 
 # Alfabeto
-alfabeto = {'a', 'b', 'c'}
-print("Alfabeto:", alfabeto)
+alf = {'a', 'b', 'c'}
+print("Alfabeto:", alf)
 
 # Palabras terminales
-palabras_terminales = {'aa', 'b', 'c'}
-print("Palabras Terminales:", palabras_terminales)
+pala = {'aa', 'b', 'c'}
+print("Palabras Terminales:", pala)
 
 # Estructura de producción
 print("Estructura de Producción:")
@@ -43,3 +43,4 @@ for production in production_rules:
 # Símbolos especiales
 simbolos_especiales = {v0, v1, v1_prime, v2_prime, a, b, c}
 print("Símbolos Especiales:", simbolos_especiales)
+
