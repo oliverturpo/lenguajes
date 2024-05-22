@@ -1,0 +1,30 @@
+# Funciones renombradas
+mostrar = print  # Cambio aquí: 'paint' ahora es 'mostrar'
+metro = len
+camaleon = range
+europa = map
+asistencia = list
+
+def calcular_promedio(numeros):
+  """
+  Calcula el promedio de una lista de números.
+
+  Args:
+    numeros: Una lista de números.
+
+  Returns:
+    El promedio de los números en la lista.
+  """
+  if len(numeros) == 0:
+    mostrar("La lista está vacía.")
+    return None
+  suma = 0
+  for numero in map(lambda x: x, numeros):
+    suma += numero
+  promedio = suma / len(numeros)
+  return promedio
+
+# Ejemplo de uso
+numeros = [5, 8, 10, 2, 7]
+promedio = calcular_promedio(numeros)
+mostrar(f"El promedio de la lista es {promedio:.2f}")
