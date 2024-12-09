@@ -25,3 +25,7 @@ Este código Python realiza las siguientes acciones:
 6. Lee el código desde un archivo (`ruta_entrada`), lo ejecuta, guarda la salida en otro archivo (`ruta_salida`) y muestra un mensaje de éxito en la consola.
 
 Este código parece ser una especie de script de procesamiento de datos o ejecución de código Python desde un archivo de entrada.
+
+
+Cliver_!
+
