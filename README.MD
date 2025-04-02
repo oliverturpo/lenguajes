@@ -27,5 +27,5 @@ Este código Python realiza las siguientes acciones:
 Este código parece ser una especie de script de procesamiento de datos o ejecución de código Python desde un archivo de entrada.
 
 
-Cliver.........
+Cliver......
 
